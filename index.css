@@ -382,7 +382,7 @@ body {
       }
 
       p {
-        margin-right: 1rem;
+        margin-right: 0;
       }
     }
 
@@ -394,11 +394,17 @@ body {
         }
       }
     }
+    @media (min-width: 800px) {
+      div {
+        p {
+          margin-right: 1rem;
+        }
+      }
+    }
 
     @media (max-width: 800px) {
       p {
         font-size: x-large;
-        margin-right: 0;
       }
       div {
         flex-direction: column;
