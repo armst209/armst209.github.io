@@ -29,7 +29,6 @@
 #menuToggle a {
   text-decoration: none;
   color: #232323;
-
   transition: color 0.3s ease;
 }
 
@@ -89,8 +88,8 @@
 
 #menu {
   position: absolute;
-  min-width: 400px;
   top: 0;
+  width: 200px;
   right: 0;
   padding: 50px;
   padding-top: 2rem;
@@ -103,7 +102,7 @@
   border-left: 5px solid var(--secondary-color);
   border-top: 5px solid var(--secondary-color);
   transform-origin: 0% 0%;
-  transform: translate(-500%, 0);
+  transform: translate(-300%, 0);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
