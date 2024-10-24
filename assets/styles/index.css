@@ -31,13 +31,6 @@ body {
     z-index: 3;
   }
 
-  .learn-more {
-    font-weight: bold;
-    position: relative;
-    font-weight: bolder;
-    color: var(--white);
-  }
-
   .abbreviate-p {
     @media (max-width: 1000px) {
       display: none;
