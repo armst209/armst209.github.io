@@ -143,9 +143,9 @@ body {
     }
 
     @media (max-width: 800px) {
-      text-align: center;
       p {
         font-size: x-large;
+        text-align: center;
       }
     }
 
