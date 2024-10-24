@@ -26,21 +26,21 @@ Before you begin, ensure you have met the following requirements:
 
 To run locally, run this command on your git bash:
 
-Linux and macOS:
-
-```bash
-sudo git clone https://github.com/armst209/armst209.github.io.git
-```
-
 Windows:
 
 ```bash
 git clone https://github.com/armst209/armst209.github.io.git
 ```
 
+Linux and macOS:
+
+```bash
+sudo git clone https://github.com/armst209/armst209.github.io.git
+```
+
 ### Contact
 
-Email: armst209@gmail.com
+Email: armst209@gmail.com <br/>
 LinkedIn: https://www.linkedin.com/in/aaronlamararmstrong/
 
 ### License
