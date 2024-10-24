@@ -64,6 +64,14 @@ body {
   a {
     color: var(--white);
   }
+
+  .header-h1-titles {
+    font-size: xx-large;
+  }
+  .content-section {
+    min-height: 600px;
+    margin-bottom: 3rem;
+  }
 }
 
 /* HEADER STYLES */
@@ -194,6 +202,10 @@ header {
 }
 
 #who-we-are {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   scroll-margin-top: 6rem;
   padding: 1rem;
 
@@ -223,14 +235,11 @@ header {
 
   /* MEDIA QUERIES */
 
-  @media (max-width: 800px) {
+  @media (max-width: 1000px) {
     p {
       font-size: x-large;
       text-align: center;
     }
-  }
-
-  @media (max-width: 1000px) {
     img:nth-child(1) {
       display: none;
     }
@@ -255,12 +264,20 @@ header {
 }
 
 #industries {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
   scroll-margin-top: 6rem;
   padding: 1rem;
   box-shadow: var(--box-shadow);
   color: var(--white);
   text-shadow: var(--text-shadow);
+
+  h1 {
+    z-index: 1;
+  }
 
   a {
     color: var(--white);
@@ -295,7 +312,7 @@ header {
 
   /* MEDIA QUERIES */
 
-  @media (max-width: 800px) {
+  @media (max-width: 1000px) {
     p {
       font-size: x-large;
     }
@@ -322,6 +339,10 @@ header {
 }
 
 #insights {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   scroll-margin-top: 6rem;
   padding: 1rem;
   div {
@@ -362,7 +383,7 @@ header {
     }
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 1000px) {
     p {
       font-size: x-large;
     }
@@ -387,6 +408,10 @@ header {
 }
 
 #partnerships {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
   scroll-margin-top: 6rem;
   padding: 1rem;
@@ -442,7 +467,7 @@ header {
 
   /* MEDIA QUERIES */
 
-  @media (max-width: 800px) {
+  @media (max-width: 1000px) {
     p {
       font-size: x-large;
     }
@@ -478,6 +503,10 @@ header {
 }
 
 #our-history {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 1rem;
   div {
     display: flex;
