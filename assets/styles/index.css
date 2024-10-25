@@ -159,7 +159,7 @@ header {
   align-items: center;
   text-align: center;
   color: var(--white);
-  padding: 50px 1rem;
+  padding: 5rem 1rem;
   text-shadow: var(--text-shadow);
   height: calc(100vh - 106px);
 
@@ -212,9 +212,19 @@ header {
 
   @media (max-width: 375px) {
     justify-content: flex-start;
-    margin-top: 5rem;
     h1 {
       font-size: 3rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+
+  @media (max-height: 700px) {
+    justify-content: flex-start;
+    margin-top: 2rem;
+    h1 {
+      font-size: 2.5rem;
     }
     h2 {
       font-size: 1.5rem;
