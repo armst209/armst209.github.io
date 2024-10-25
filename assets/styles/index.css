@@ -161,7 +161,7 @@ header {
   color: var(--white);
   padding: 5rem 1rem;
   text-shadow: var(--text-shadow);
-  height: calc(100vh - 106px);
+  height: calc(100vh - 150px);
 
   #hero-titles {
     display: flex;
