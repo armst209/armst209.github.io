@@ -1,4 +1,4 @@
-@import url("../styles/hamburger-menu.css");
+@import url("../styles/mobile-navigation.css");
 
 :root {
   box-sizing: border-box;
@@ -17,6 +17,8 @@
   font-family: "Inter", Fallback, sans-serif;
   scroll-behavior: smooth;
 }
+
+/* BODY STYLES */
 
 body {
   width: 100%;
@@ -167,6 +169,9 @@ header {
     display: flex;
     flex-direction: column;
     z-index: 1;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
   }
 
   h1 {
@@ -178,7 +183,6 @@ header {
     font-size: 2rem;
     font-weight: 200;
     padding: 0;
-    margin: 1rem;
     font-style: italic;
   }
 
