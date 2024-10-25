@@ -220,6 +220,7 @@ header {
   }
 
   @media screen and (max-height: 700px) and (orientation: landscape) {
+    margin-top: 2rem;
     h1 {
       font-size: 2rem;
     }
