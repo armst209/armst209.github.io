@@ -159,9 +159,9 @@ header {
   align-items: center;
   text-align: center;
   color: var(--white);
-  padding: 5rem 1rem;
+  padding: 0 1rem;
   text-shadow: var(--text-shadow);
-  height: calc(100vh - 150px);
+  height: 100vh;
 
   #hero-titles {
     display: flex;
