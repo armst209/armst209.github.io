@@ -87,6 +87,10 @@ body {
   .header-h1-titles {
     font-size: xx-large;
     text-transform: uppercase;
+
+    @media (max-width: 400px) {
+      font-size: 1.5rem;
+    }
   }
   .content-section {
     min-height: 600px;
