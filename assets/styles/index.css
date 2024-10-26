@@ -75,8 +75,12 @@ body {
     border-left: 7px solid var(--secondary-color);
     font-family: var(--font-2);
     background-color: var(--primary-darker-tint);
-    @media (max-width: 360px) {
-      width: 250px;
+    width: 250px;
+    @media (min-width: 360px) {
+      width: auto;
+    }
+    @media (min-width: 1000px) {
+      font-size: 1.5rem;
     }
   }
 
@@ -87,9 +91,10 @@ body {
   .header-h1-titles {
     font-size: xx-large;
     text-transform: uppercase;
+    font-size: 1.5rem;
 
-    @media (max-width: 400px) {
-      font-size: 1.5rem;
+    @media (min-width: 400px) {
+      font-size: auto;
     }
   }
   .content-section {
@@ -312,6 +317,7 @@ header {
     text-align: center;
     font-weight: 600;
     font-family: var(--font-2);
+    font-size: 1rem;
   }
   img {
     max-width: 600px;
