@@ -204,6 +204,7 @@ header {
       justify-content: center;
       z-index: 1;
       max-width: 900px;
+      padding: 0 1rem;
     }
 
     h1 {
