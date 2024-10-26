@@ -354,8 +354,10 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
 
+    p {
+      text-align: center;
+    }
     #industries-img {
       border-left: 7px solid var(--secondary-color);
       border-radius: 0 1rem 1rem 0;
