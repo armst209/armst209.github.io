@@ -8,7 +8,7 @@
   align-items: center;
   height: 100%;
 
-  @media (min-width: 678px) {
+  @media (min-width: 1200px) {
     display: none;
   }
 }
@@ -27,7 +27,7 @@
 
 #menuToggle a {
   text-decoration: none;
-  color: #232323;
+  color: var(--white);
   transition: color 0.3s ease;
 }
 
@@ -93,21 +93,24 @@
   padding: 50px;
   padding-top: 2rem;
   margin-top: 3.5rem;
-  background-color: var(--white);
+  background-color: var(--primary-darker-tint);
   list-style-type: none;
   font-weight: bold;
   -webkit-font-smoothing: antialiased;
-  border-bottom: 5px solid var(--secondary-color);
-  border-left: 5px solid var(--secondary-color);
-  border-top: 5px solid var(--secondary-color);
+  border-bottom-left-radius: 5rem;
+  border: 5px solid var(--secondary-color);
+  border-top: none;
+  background-color: var(--primary-darker-tint);
   transform-origin: 0% 0%;
-  transform: translate(-300%, 0);
+  transform: translate(-400%, 0);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  text-transform: uppercase;
 }
 
 #menu li {
   padding: 10px 0;
-  font-size: 22px;
+  font-size: 1rem;
+  font-weight: 900;
 }
 
 #menuToggle input:checked ~ ul {
