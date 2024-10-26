@@ -4,7 +4,7 @@
 
   <h2 align="center">Anaheim Electronics (Mobile Suit Gundam) - Sample Business Website</h2>
 
-Responsive, mobile first design. Built using HTML and CSS.
+Responsive, mobile first design. Built using HTML and CSS (Will and has gone through many iterations).
 
 <a href="https://armst209.github.io/"><strong>➥ Live Demo</strong></a>
 
