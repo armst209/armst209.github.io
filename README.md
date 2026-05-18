@@ -1,48 +1,85 @@
-<div align="center">
-  <br />
-  <br />
+# Anaheim Electronics - Business Website
 
-  <h2 align="center">Anaheim Electronics (Mobile Suit Gundam) - Sample Business Website</h2>
+> A responsive, modern business website inspired by Anaheim Electronics from Mobile Suit Gundam. Built with vanilla HTML and CSS using a mobile-first design approach.
 
-Responsive, mobile first design. Built using HTML and CSS.
+[![Live Demo](https://img.shields.io/badge/demo-online-blue?style=flat-square)](https://armst209.github.io/)
 
-<a href="https://armst209.github.io/"><strong>➥ Live Demo</strong></a>
+## 📸 Preview
 
-</div>
+![Anaheim Electronics Website Demo](./assets/photos/Sample%20Business%20Website%20Hero.png)
 
-<br />
+## ✨ Features
 
-### Demo Screeshots
+- **Responsive Design** - Optimized for mobile, tablet, and desktop devices
+- **Mobile-First Approach** - Built with mobile users in mind from the ground up
+- **Clean Architecture** - Well-organized HTML and CSS codebase
+- **Fast Performance** - No heavy frameworks or dependencies
+- **Cross-Browser Compatible** - Works across all modern browsers
 
-![Sample Business Website Demo](./assets/photos/Sample%20Business%20Website%20Hero.png)
+## 🛠️ Built With
+
+- **HTML5** - Semantic markup
+- **CSS3** - Styling and responsive layouts
+- **Vanilla JavaScript** - No external dependencies
+
+## 🚀 Getting Started
 
 ### Prerequisites
 
-Before you begin, ensure you have met the following requirements:
+- [Git](https://git-scm.com/downloads) installed on your machine
 
-- [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+### Installation
 
-### Run Locally
-
-To run locally, run this command on your git bash:
-
-Windows:
+Clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/armst209/armst209.github.io.git
+cd armst209.github.io
 ```
 
-Linux and macOS:
+### Usage
+
+Since this is a static website, simply open `index.html` in your web browser:
 
 ```bash
-sudo git clone https://github.com/armst209/armst209.github.io.git
+# Windows
+start index.html
+
+# macOS
+open index.html
+
+# Linux
+xdg-open index.html
 ```
 
-### Contact
+Or open the file directly through your browser's file manager.
 
-Email: armst209@gmail.com <br/>
-LinkedIn: https://www.linkedin.com/in/aaronlamararmstrong/
+## 📁 Project Structure
 
-### License
+```
+.
+├── index.html                 # Main HTML file
+├── README.md                  # This file
+├── assets/
+│   ├── photos/               # Image assets
+│   │   └── background/       # Background images
+│   └── styles/               # CSS stylesheets
+│       ├── index.css         # Main styles
+│       └── mobile-navigation.css  # Mobile nav styles
+└── ...
+```
 
-This project is **free to use** and does not contains any license.
+## 🔗 Live Demo
+
+Check out the live version here: https://armst209.github.io/
+
+## 📧 Contact
+
+- **Email:** armstdev@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/aaronlamararmstrong/
+
+## 📄 License
+
+This project is open source and available for free use. No formal license applies.
+
+---
